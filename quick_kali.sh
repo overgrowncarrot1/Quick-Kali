@@ -85,3 +85,14 @@ sudo apt install golang-go -y
 echo "running nxc for the first time"
 nxc --version
 echo "we are done, remember this is not everything you will ever need just a lot of stuff. Restart your kali"
+
+echo "Remember the moment you know exactly where you're going
+'Cause the next moment, before you know it
+Time is slowing and it's frozen still
+And the window sill looks really nice, right?
+You think twice about your life, it probably happens at night, right?
+Fight it, take the pain, ignite it
+Tie a noose around your mind, loose enough to breathe fine and tie it
+To a tree, tell it, You belong to me
+This aint a noose, this is a leash
+And I have news for you, you must obey me"
