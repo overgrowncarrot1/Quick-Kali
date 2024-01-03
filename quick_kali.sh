@@ -8,6 +8,8 @@ echo "installing neo4j, remember to go to localhost:7474 and change password"
 sudo apt install neo4j -y
 echo "installing Bloodhound"
 sudo apt install bloodhound -y
+echo "installing remmina"
+sudo apt install remmina -y
 echo "installing Sublime Text"
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
