@@ -13,6 +13,9 @@ wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | 
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 sudo apt-get update -y
 sudo apt-get install sublime-text -y
+echo "installing rustscan"
+wget https://github.com/RustScan/RustScan/releases/download/1.10.0/rustscan_1.10.0_amd64.deb
+sudo dpkg -i rustscan_1.10.0_amd64.deb
 echo "uninstalling crackmapexec"
 sudo apt remove crackmapexec -y
 echo "installing pipx"
